@@ -1,0 +1,74 @@
+Time complexity:
+
+->It is the relation bt input size and operations.
+
+Example1:p.s.v.m{
+
+int n=System.in  //Scanner class by using 
+
+for(int i=0;i<n;i++){
+
+println("hello world");
+//here Timecomplexity depends on input n and operation performed.
+
+
+}
+}
+TimeComplexity for worst=O(n)
+
+Example2:p.s.v.m{
+
+int n=System.in  //Scanner class by using 
+
+for(int i=0;i<n;i++){
+for(int j=0;j<n;j++){
+
+println("hello world");
+//here Timecomplexity depends on input n and operation performed.
+}
+
+}
+}
+TimeComplexity for worst=O(n*n)
+
+Example3:p.s.v.m{
+
+int n=System.in  //Scanner class by using 
+int m=System.in  //Scanner class by using 
+for(int i=0;i<n;i++){
+
+println("hello world");
+//here Timecomplexity depends on input n and operation performed.
+
+
+}
+
+for(int j=0;j<m;j++){
+
+println("hello world");
+//here Timecomplexity depends on input n and operation performed.
+
+
+}
+}
+}
+TimeComplexity for worst=O(n+m)
+
+Example4:p.s.v.m{
+
+int n=System.in  //Scanner class by using 
+int m=System.in  //Scanner class by using 
+for(int i=0;i<n;i++){
+for(int j=0;j<m;j++){
+
+println("hello world");
+//here Timecomplexity depends on input n and operation performed.
+}
+
+}
+}
+TimeComplexity for worst=O(n*m)
+
+Space complexity:Number of objects or varaibles occupied by in memory is nothing but space complexity.
+
+

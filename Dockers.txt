@@ -1,0 +1,47 @@
+Dockers:
+->It is open for developers and system administrators to build and test cloud applications
+Note:Docker is a company name
+
+Challenges:if we want to deployee in server there might be like version problems so it might may not run on the other platform.
+->we can take the example of cargo managment or transportation.
+->Now a days we have the containers which carry any type of products.
+->all the static website,user db,etc all kept on the one container which will help you run on any environment like dev,prod etc.
+CI/CD=continuous integration and continuous development.
+LXC=linux container technology to run multiple linux on one host,etc.
+Build once run n number of time
+->you need o specify in the development stage whether the application what versions required so the dockers will first install all the software required to run the application in other platform and then it will run.
+->it will reduces the time and effort of the deployment process.
+
+Hiper v manager or VMWare:
+->which helps us to create virtual machines on single laptop with different platform.
+Example if your application is running on windows and you want to run on linux(ubantu).then you need to purchase other laptop which as linux os.so it will helps us to install multiple os on a single top.
+Note:Virtual machine means computer inside a other computer.
+VM's works independently 
+Disadvantages:
+1)Heavy weight
+2)will have impact on the hardware of the system(if multiple os in a single laptop)
+
+Advantages of Dockers:
+->light weight
+->isolated(in one container we can have java8 and other container we can have java10 so there will be no messup with version it will take care of that.
+Note:to create containers needs to craete binaries for each os.
+Binaries are nothing but containers
+
+Docker hub:where any one can access the code or upload the code(register the repository)
+Docker file:where all the information instructed or kept to run an application on the containers
+Working:
+Dockerfile----image---container---Docker container image registry----pull or run(other developers) with same container.
+Steps:
+1)Need to create docker file which will have all the commands)
+2)need to build which will create the docker image(executable file or image).
+3)need to run the image then it will create docker container(how times you will run that many times will create the containers)
+4)Now need to publish the dockers in the private registry or public registry so that any can accesss the image.
+ex:docker hub,AWS,Azure etc.
+
+After that the othe developer can have the acces to the reigistry so that he can download the image can run and create containers(virtual machine kind of)
+
+
+
+
+
+  

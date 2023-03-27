@@ -1,0 +1,13 @@
+----Vault-----
+->It is tool can be used for storing sesitive information such as credentials,encription keys,etc.
+Example:We use store the DB values in properties file or config file so it is not secure.
+->Vault will help you to overcome this situation where only authorided developer will have access to sensitive data and also vault will keeps the track of looged in user who have accessed the information completely.
+
+We can have dynamic secrets so that like having limit for that secret and token will be rvoked or expired .
+
+We can create policies of having permissions like read only or readandwrite etc.And we can assign this polices to users .
+
+->there are Apis available in vault so that we can do encryption or decryption of our data and save into data base ours
+Note for above we dont need any configurations of vault.
+
+Finally:So that we can have security to our sensitive data.

@@ -1,0 +1,33 @@
+-------Strem API-------- :
+
+Non-Terminal Operations
+
+filter()
+map()
+distinct()
+sorted()
+peek()
+
+Terminal Operations
+
+anyMatch()
+collect()
+count()
+findFirst()
+min()
+max()
+sum()
+average()
+
+----Centralized exception handling-------:
+create seperate class.
+
+@ControllerAdvice use the annotaion with class level
+
+@ExceptionHandler use at method level specify the type of exception
+
+@ResponseStatus use at method level specify the status
+
+
+
+

@@ -1,0 +1,14 @@
+jenkins:
+->it is a continous integration tool that alolows continous development,test and deployment of newly created code
+->developer-repository-CI/server(if pass)-Testing-Release and deployee
+->developer-repository-CI/server(if fail)-Developer
+Note:CI tool makes the productivity as well as efficiency and time saving.
+
+CI tools:
+1)Bamboo
+->It is a CI tool can run multiple builds in parallel for faster compilation. it has built in functionality to connect with repositories and has build tasks for Ant,maven,etc.
+2)Buildbot
+2)Gump
+4)Travis CI
+5)Jenkins
+->Jenkins is an open source automation server written in java.It is used to automate software development process via continous integration and facilitates continous delivery.
